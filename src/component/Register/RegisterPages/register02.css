@@ -1,0 +1,281 @@
+.register {
+  border: 1px solid blue;
+  width: 1330px;
+  height: 1024px;
+  background: #fcfcfc;
+}
+.leftSideRegister {
+  position: absolute;
+  width: 700px;
+  height: 960px;
+  left: 32px;
+  top: 32px;
+
+  /* Gray-200 */
+  background: #f1f1f1;
+  border-radius: 32px;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  width: 250px;
+  height: 38px;
+  left: 400px;
+  top: 70px;
+}
+h2 {
+  position: absolute;
+  width: 275px;
+  height: 46px;
+  left: 370px;
+  top: 171px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  /* identical to box height */
+  text-align: center;
+
+  /* Black */
+  color: #2f2f2f;
+}
+p {
+  position: absolute;
+  width: 410px;
+  height: 29px;
+  left: 230px;
+  top: 233px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Gray-800 */
+  color: #707070;
+}
+.image {
+  position: absolute;
+  width: 368px;
+  height: 309px;
+  left: 150px;
+  top: 536px;
+  background: url(/imgRegister/3d-hygge-top-view-of-laptop-glasses-cup-of-coffee-headphones-1\ 1.png);
+}
+.tabs {
+  /* border: 1px solid blue; */
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  left: 800px;
+  top: 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+.rectangle {
+  width: 157px;
+  height: 8px;
+  /* Gray-400 */
+  background: #dcdcdc;
+  border-radius: 9px;
+}
+.titleTabRegister {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: center;
+  margin-top: 5px;
+
+  /* Gray-800 */
+  color: #707070;
+}
+.titleTab2 {
+  font-weight: 600;
+  font-size: 16px;
+  /* Black */
+  color: #2f2f2f;
+}
+.titleRegister01 {
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  left: 1040px;
+  top: 200px;
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Black */
+  color: #2f2f2f;
+}
+.titleRegister02 {
+  position: absolute;
+  width: 346px;
+  height: 46px;
+  left: 950px;
+  top: 252px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: right;
+
+  /* Gray-800 */
+  color: #707070;
+}
+.input {
+  position: absolute;
+  left: 1195px;
+  top: 346px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Black */
+  color: #2f2f2f;
+}
+.acceptNumber {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 398px;
+  height: 48px;
+  left: -310px;
+  top: 50px;
+
+  /* White */
+  background: #fcfcfc;
+  /* Gray-400 */
+  border: 1px solid #dcdcdc;
+  border-radius: 24px;
+  text-align: right;
+}
+.sendCode {
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  width: 400px;
+  height: 48px;
+  left: 885px;
+  top: 470px;
+
+  /* Blue */
+  background: #3772ff;
+  border-radius: 40px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  /* identical to box height */
+  text-align: center;
+
+  /* White */
+  color: #fcfcfc;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.accauntPartQuestion {
+  position: absolute;
+  width: 200px;
+  height: 23px;
+  left: 1030px;
+  top: 513px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Black */
+  color: #2f2f2f;
+}
+span {
+  position: absolute;
+  width: 200px;
+  height: 23px;
+  left: -140px;
+  top: 0px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: right;
+  text-decoration-line: underline;
+
+  /* Blue */
+  color: #3772ff;
+}
+.backBottom {
+  box-sizing: border-box;
+  align-items: center;
+  padding: 8px 16px;
+  position: absolute;
+  width: 141px;
+  height: 40px;
+  left: 1020px;
+  top: 568px;
+  /* White */
+  background: #fcfcfc;
+  /* Gray-400 */
+  border: 1px solid #dcdcdc;
+  border-radius: 34px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: right;
+  /* Blue */
+  color: #3772ff;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.backBottomIcon {
+  width: 40px;
+  height: 40px;
+  background: url(/imgRegister/arrow-left-01.png) no-repeat 50% 20%;
+  background-size: 20px;
+  position: relative;
+  bottom: 25px;
+  left: -17px;
+}

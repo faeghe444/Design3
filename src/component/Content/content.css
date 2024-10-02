@@ -1,0 +1,440 @@
+/* content   ********************************************** */
+body {
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+}
+/* **************************************** top main ****************************************** */
+.topSection {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin: 100px auto;
+}
+.startLearning {
+}
+h4 {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: right;
+  color: #2f2f2f;
+}
+.newCourse {
+  width: 150px;
+  height: 47px;
+  background: #2f2f2f;
+  border-radius: 40px;
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  color: #fcfcfc;
+  cursor: pointer;
+}
+.topTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title1 {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 57px;
+  text-align: center;
+  color: #2f2f2f;
+}
+.title2 {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #707070;
+}
+.activePeople {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 200px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.activeStudents {
+  background: url(/imgLand/Frame\ 7.png) no-repeat 50%;
+  background-size: 150px;
+}
+.activeTeachers {
+  background: url(/imgLand/Frame\ 9.png) no-repeat 50%;
+  background-size: 130px;
+}
+/* ****************************************** our goals**************************************** */
+.ourGoals {
+  /* border: 1px solid green; */
+  margin: 100px auto;
+  width: 1300px;
+  height: 400px;
+  background: url(/imgLand/Group\ 19.png) no-repeat 20% 70%;
+  background-size: 100%;
+  /* position: absolute; */
+}
+.titleGoal {
+  /* border: 1px solid blue; */
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: 500px;
+  text-align: center;
+  line-height: 30px;
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #2f2f2f;
+}
+.boxGoals {
+  /* border: 1px solid red; */
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+  gap: 18px;
+}
+.goals {
+  background: #fff;
+  height: 100%;
+
+  border: 1px solid #c4c2c2;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.goals:hover {
+  border: 1px solid #69abe9;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.goals1 {
+}
+.goalImgs {
+  margin: 5px auto;
+}
+h3 {
+  text-align: right;
+  line-height: 30px;
+  font-family: "DanaFaNum";
+  font-style: normal;
+  margin-right: 10px;
+}
+.goalP {
+  text-align: right;
+  line-height: 30px;
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #707070;
+}
+/* ******************************** khadamat **************************************** */
+.servises {
+  /* border: 1px solid blue; */
+  width: 1200px;
+  height: 400px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 10px;
+}
+.titleServise {
+  /* border: 1px solid red; */
+  /* width: 410px; */
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  position: relative;
+  top: -20px;
+  left: 0px;
+}
+.servisekBox {
+  /* border: 1px solid rgb(23, 92, 60); */
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+.box1 {
+  border: 1px solid #ccc;
+  background: #f4f4f7;
+  width: 550px;
+  height: 110px;
+  border-radius: 20px;
+  margin: 10px auto;
+  position: relative;
+}
+.box1:hover,
+.boxIcon:hover {
+  border: 2px solid #5b9edd;
+}
+h2 {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: #2f2f2f;
+  margin-right: 100px;
+}
+P {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  color: #707070;
+  margin-right: 100px;
+}
+.boxIcon {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.boxIcon1 {
+  background: #fff url(/imgLand/task-daily-01.png) no-repeat 50%;
+}
+.boxIcon2 {
+  background: #fff url(/imgLand/document-validation.png) no-repeat 50%;
+}
+.boxIcon3 {
+  background: #fff url(/imgLand/job-link.png) no-repeat 50%;
+}
+.boxIcon4 {
+  background: #fff url(/imgLand/message-user-01.png) no-repeat 50%;
+}
+/* *****************top courses ****************************************************************** */
+.topCourse {
+  /* border: 1px solid red; */
+  margin: 100px auto;
+  width: 1200px;
+  /* height: 400px; */
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+.topCoursTitle {
+  /* border: 1px solid rgb(41, 196, 41); */
+  margin: 0px auto;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  /* identical to box height */
+  text-align: center;
+  /* Black */
+  color: #2f2f2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.coursesList {
+  /* border: 1px solid rgb(41, 196, 41); */
+  margin: 0px auto;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 23px;
+}
+.bottom {
+  margin: 0 auto;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 125px;
+  height: 39px;
+
+  /* Black */
+  background: #2f2f2f;
+  border-radius: 40px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+  /* مشاهده بیشتر */
+  width: 93px;
+  height: 23px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: center;
+
+  /* White */
+  color: #fcfcfc;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.coursOption {
+  /* border: 1px solid orange; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 280px;
+  height: 280px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.topCourseImg {
+  width: 100%;
+  height: 70%;
+  background: url(/imgLand/Group\ 12.png) no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+.catOfCourse {
+  /* width: 90px;
+    height: 25px; */
+
+  /* Blue */
+  background: #7298f0;
+  border-radius: 32px;
+  width: 90px;
+  height: 20px;
+  padding: 2px;
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: center;
+
+  /* White */
+  color: #fcfcfc;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  position: relative;
+  left: 78px;
+  top: 4px;
+}
+.catOfCourse01 {
+  background: #ff37f5;
+}
+.infoCourse {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  width: 90%;
+}
+.titleCourse {
+  /* border: 1px solid red; */
+  margin-top: 0;
+
+  height: 34px;
+
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+
+  /* Black */
+  color: #2f2f2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.infoCourseNamePrice {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.nameOfProf {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Gray-800 */
+  color: #707070;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.price {
+  color: #2f2f2f;
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: right;
+}
